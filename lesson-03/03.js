@@ -1,13 +1,8 @@
 // Разработайте функцию findLargest, которая принимает три числа и возвращает наибольшее из них.
 
 
-function includesElement(array, element) {
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] === element) {
-            return true;
-        }
-    }
-    return false;
+function isEven(num) {
+    return num % 2 === 0;
 }
 
 // Пример использования:
